@@ -1,0 +1,59 @@
+{
+    "200_OK": {
+        "code": 200,
+        "message": "Ok"
+    },
+    "201_CREATED": {
+        "code": 201,
+        "message": "Created"
+    },
+    "202_ACCEPTED": {
+        "code": 202,
+        "message": "Accepted"
+    },
+    "400_BAD_REQUEST": {
+        "code": 400,
+        "message": "Bad request"
+    },
+    "401_UNAUTHORIZED": {
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    "402_PAYMENT_REQUIRED": {
+        "code": 402,
+        "message": "Payment required"
+    },
+    "403_FORBIDDEN": {
+        "code": 403,
+        "message": "Forbidden"
+    },
+    "404_NOT_FOUND": {
+        "code": 404,
+        "message": "Not found"
+    },
+    "409_CONFLICT": {
+        "code": 409,
+        "message": "Conflict"
+    },
+    "418_TEAPOT": {
+        "code": 418,
+        "message": "I'm a fruity teapot"
+    },
+    "423_LOCKED": {
+        "code": 423,
+        "message": "Locked"
+    },
+    "426_UPGRADE_REQUIRED": {
+        "code": 426,
+        "message": "Upgrade required"
+    },
+    "500_INTERNAL_SERVER_ERROR": {
+        "code": 500,
+        "message": "Internal server error"
+    },
+    "501_NOT_IMPLEMENTED": {
+        "code": 501,
+        "message": "Not implemented"
+    }
+}
+
