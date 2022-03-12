@@ -1,4 +1,4 @@
-# Module RestApiHelpder
+# Module RestApiHelper
 Acts as submodule for git repositories requiring Cherry Health Rest Api Helper functions. 
 
 ## Responsibilities
