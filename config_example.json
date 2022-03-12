@@ -1,0 +1,68 @@
+{
+    "authorization": {
+        "allowedCognitoAudiences": [
+            "cognito_audience_id_1",
+            "cognito_audience_id_2"
+        ]
+    },
+    "queries": {
+        "jobs": {
+            "params": ["offset", "limit", "postType", "status"],
+            "jobId": {
+                "params": ["jobId"]
+            },
+            "organizationId": {
+                "ids": {
+                    "params": ["organizationId", "offset", "limit", "postType", "status"]
+                },
+                "list": {
+                    "params": ["organizationId", "offset", "limit", "postType", "status"]
+                }
+            }
+        }
+    },
+    "params": {
+        "jobId": {
+            "requiresEval": false,
+            "type": "string"
+        },
+        "organizationId": {
+            "requiresEval": false,
+            "type": "string"
+        },
+        "offset": {
+            "requiresEval": true,
+            "type": "number"
+        },
+        "limit": {
+            "requiresEval": true,
+            "type": "number"
+        },
+        "postType": {
+            "requiresEval": true,
+            "type": "string",
+            "allowMultipleValues": true,
+            "allowedValues": [
+                "LOCUM", 
+                "LONG_TERM",
+                "TELEHEALTH"
+            ]
+        },
+        "status": {
+            "requiresEval": true,
+            "type": "string",
+            "allowMultipleValues": true,
+            "allowedValues": [
+                "DRAFT",
+                "OPEN",
+                "APPLIED",
+                "BOOKED",
+                "IN_PROGRESS",
+                "BOOKED",
+                "COMPLETED",
+                "UNFILLED",
+                "REJECTED"
+            ]
+        }
+    }
+}
