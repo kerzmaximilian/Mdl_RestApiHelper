@@ -1,4 +1,5 @@
 {
+    "IMPORTANT": "!!! MAKE A COPY AND KEEP IN MAIN DIRECTORY OF LAMBDA FUNCTION !!!",
     "authorization": {
         "allowedCognitoAudiences": [
             "cognito_audience_id_1",
